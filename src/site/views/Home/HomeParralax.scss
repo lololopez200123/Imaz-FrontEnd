@@ -1,0 +1,99 @@
+.home {
+  background-color: $colorGrisBase;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-perspective: 15px;
+  perspective: 15px;
+  .seccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    &.active {
+      .indicador {
+        width: 200px;
+      }
+    }
+    &.nosotros {
+      -webkit-transform: translateZ(-1px);
+      transform: translateZ(-1px);
+    }
+    &.servicios {
+      height: 550px;
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      .indicador {
+        @include sombra(2px 2px 4px 0 #444);
+      }
+      .go-to-next-section {
+        svg {
+          color: #fff;
+        }
+      }
+    }
+    &.noticias {
+      -webkit-transform: translateZ(-1px);
+      transform: translateZ(-1px);
+      .indicador {
+        background-color: $colorAzulBase;
+        span {
+          color: #fff;
+        }
+      }
+      .go-to-next-section {
+        &:hover {
+          svg {
+            margin-top: -12px;
+          }
+        }
+      }
+    }
+    .indicador {
+      position: absolute;
+      left: 40px;
+      top: 40px;
+      background-color: #fff;
+      border-radius: 15px;
+      @include sombra(2px 2px 4px 0 #666);
+      width: 130px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 4;
+      @include ease-transition;
+      span {
+        /*font-family: $fontMontserratRegular;*/
+        font-family: $fontGibson;
+        text-transform: uppercase;
+        color: $colorAzulMedio;
+        font-size: 95%;
+      }
+    }
+    .go-to-next-section {
+      position: absolute;
+      left: 40px;
+      bottom: 40px;
+      cursor: pointer;
+      @include ease-transition;
+      width: 35px;
+      height: 48px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover {
+        svg {
+          margin-top: 12px;
+        }
+      }
+      svg {
+        color: $colorAzulBase;
+        @include ease-transition;
+        font-size: 250%;
+      }
+    }
+  }
+}

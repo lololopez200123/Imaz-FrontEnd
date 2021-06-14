@@ -1,0 +1,68 @@
+[
+  {
+    "nombre": "Joaquín Andrés Imaz",
+    "email": "jaimaz@estudioimaz.com.ar",
+    "profesion": "Abogado",
+    "imagen": "joaquin"
+  },
+  {
+    "nombre": "Sabrina Maricel Cortés",
+    "email": "scortes@estudioimaz.com.ar",
+    "profesion": "Abogada",
+    "imagen": "sabrina"
+  },
+  {
+    "nombre": "Natalia Nadina Besso",
+    "email": "nbesso@estudioimaz.com.ar",
+    "profesion": "Abogada",
+    "imagen": "natalia"
+  },
+  {
+    "nombre": "Gabriel Alejandro Contrera",
+    "email": "gcontrera@estudioimaz.com.ar",
+    "profesion": "Abogado",
+    "imagen": "gabriel"
+  },
+  {
+    "nombre": "Andrés Potolicchio Boscarino",
+    "email": "apotolicchio@estudioimaz.com.ar",
+    "profesion": "Abogado",
+    "imagen": "andres"
+  },
+  {
+    "nombre": "María Celeste Cáceres Russo",
+    "email": "ccaceres@estudioimaz.com.ar",
+    "profesion": "Abogada",
+    "imagen": "celeste"
+  },
+  {
+    "nombre": "Susana Noemi Balboa Narambuena",
+    "email": "sbalboa@estudioimaz.com.ar",
+    "profesion": "Abogada",
+    "imagen": "susana"
+  },
+  {
+    "nombre": "Alejandro Daniel Lagos",
+    "email": "adlagos@estudioimaz.com.ar",
+    "profesion": "Abogado",
+    "imagen": "alejandro"
+  },
+  {
+    "nombre": "Paula Gimena Gutiérrez",
+    "email": "ggutierrez@estudioimaz.com.ar",
+    "profesion": "Abogada",
+    "imagen": "gimena"
+  },
+  {
+    "nombre": "Eduardo Maximiliano Caffaratti",
+    "email": "mcaffaratti@estudioimaz.com.ar",
+    "profesion": "Abogado",
+    "imagen": "maxi"
+  },
+  {
+    "nombre": "Guillermo Martín Willhuber",
+    "email": "mwillhuber@estudioimaz.com.ar",
+    "profesion": "Abogado",
+    "imagen": "martin"
+  }
+]

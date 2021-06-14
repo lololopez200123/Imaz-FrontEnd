@@ -1,0 +1,14 @@
+[
+  {
+    "_id": "articulo-de-revista",
+    "nombre": "Artículo de revista"
+  },
+  {
+    "_id": "novedades",
+    "nombre": "Novedades"
+  },
+  {
+    "_id": "casos-de-exito",
+    "nombre": "Casos de éxito"
+  }
+]
